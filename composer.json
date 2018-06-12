@@ -1,0 +1,30 @@
+{
+  "name": "modernphp/scanner",
+  "description": "Scan URLs from a CSV file and report inaccessible URLs",
+  "keywords": ["url", "scanner", "csv"],
+  "homepage": "http://example.com",
+  "license": "MIT",
+  "authors": [{
+    "name": "Outman El Ouaryachi",
+    "homepage": "https://github.com/manothbi/Homework",
+    "role": "Developer"
+  }],
+  "support": {
+    "email": "elouaryachi.outman@gmail.com"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~7.0"
+  },
+  "suggest": {
+    "league/csv": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Atom and github\\App\\": "src/"
+    }
+  }
+}
